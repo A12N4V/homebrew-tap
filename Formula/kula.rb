@@ -4,28 +4,28 @@
 class Kula < Formula
   desc "Git, with a map: local-first git client with a knowledge-graph view"
   homepage "https://github.com/A12N4V/kula"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/A12N4V/kula/releases/download/v#{version}/kula-aarch64-apple-darwin.tar.gz"
-      sha256 "29044414eb2c88ecfbf8eee7089e90a02fdf3f122da5381ba7047c22e2d51f09"
+      sha256 "436b72b638b0ae1dc89e40693fbd34b01479344950ff8f196861e80775127022"
     end
     on_intel do
       url "https://github.com/A12N4V/kula/releases/download/v#{version}/kula-x86_64-apple-darwin.tar.gz"
-      sha256 "f4d03e93f2ca2caca487f2b0a0f945b452df84f2a5d86cf79176db131f9602b5"
+      sha256 "8395f1b7760ec0db288839c2e95d9a25d055bea5a0fbcc81ba816edf25f00270"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/A12N4V/kula/releases/download/v#{version}/kula-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d0a1faf6cbe2cf7e052d702f27a3b50529324ae761433b618bf3bd1de052b8bb"
+      sha256 "f5201c19d270223d1fff718bdf505823e750b1daa49e50200435821c2876af3a"
     end
     on_intel do
       url "https://github.com/A12N4V/kula/releases/download/v#{version}/kula-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d3bc4bfb75bfe373e527f7c3aeccba446c2cd51e4b5341fa932a924909a7841b"
+      sha256 "3c912f81321308e9ed60a735fb29d263aa980f5d91c4fbb5ad7f427c94e6a197"
     end
   end
 
